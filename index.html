@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AI Generated Site</title>
+<style>
+:root{--bg:#0a0c10;--fg:#e6eefc;--pri:#7c4dff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', 'Noto Sans', Arial, 'Apple Color Emoji','Segoe UI Emoji'}a{color:var(--pri)}.container{max-width:1100px;margin:0 auto;padding:2rem}header,footer{padding:2rem 0}.hero{padding:4rem 0;background:radial-gradient(60% 60% at 50% 40%, rgba(124,77,255,.15), transparent)}section{padding:3rem 0;border-top:1px solid #1a1f2b}h1,h2,h3{line-height:1.2}button{background:var(--pri);color:white;border:none;padding:.75rem 1rem;border-radius:.5rem}img{max-width:100%;height:auto;border-radius:.5rem}code,pre{background:#0f1320;border:1px solid #1a1f2b;border-radius:.5rem;padding:.25rem .5rem}pre{padding:1rem;overflow:auto}
+</style>
+</head>
+<body>
+<main class="container"><!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Achieve your fitness goals with our revolutionary fitness app. Track workouts, nutrition, and progress with ease.">
+    <meta name="keywords" content="fitness app, workout tracker, nutrition planning, health, exercise, personal trainer app">
+    <meta name="author" content="Fitness App Co.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourfitnessapp.com/">
+    <meta property="og:title" content="PeakFit - Your Ultimate Fitness Companion">
+    <meta property="og:description" content="Achieve your fitness goals with our revolutionary fitness app. Track workouts, nutrition, and progress with ease.">
+    <meta property="og:image" content="https://www.yourfitnessapp.com/og-image.jpg"> <!-- Replace with actual image URL -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.yourfitnessapp.com/">
+    <meta property="twitter:title" content="PeakFit - Your Ultimate Fitness Companion">
+    <meta property="twitter:description" content="Achieve your fitness goals with our revolutionary fitness app. Track workouts, nutrition, and progress with ease.">
+    <meta property="twitter:image" content="https://www.yourfitnessapp.com/twitter-image.jpg"> <!-- Replace with actual image URL -->
+
+    <title>PeakFit - Your Ultimate Fitness Companion</title>
+    <style>
+        :root {
+            --primary-color: #FF5722; /* Energetic Orange */
+            --secondary-color: #2196F3; /* Bright Blue */
+            --accent-color: #8BC34A; /* Vibrant Green */
+            --dark-bg: #1A1A2E;
+            --light-text: #E0E0E0;
+            --dark-text: #333333;
+            --white: #FFFFFF;
+            --grey-light: #F5F5F5;
+            --grey-medium: #CCCCCC;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background-color: var(--grey-light);
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--secondary-color);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--dark-bg);
+            color: var(--white);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+
+        nav ul li a {
+            color: var(--white);
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #303F9F 100%);
+            color: var(--white);
+            padding: 4rem 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 0.8rem 1.8rem;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #E64A19; /* Darker orange */
+            transform: translateY(-3px);
+        }
+
+        /* Features Section */
+        #features {
+            background-color: var(--white);
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        #features h2, #testimonials h2, #contact h2 {
+            font-size: 2.2rem;
+            margin-bottom: 2.5rem;
+            color: var(--dark-text);
+            position: relative;
+            display: inline-block;
+        }
+
+        #features h2::after, #testimonials h2::after, #contact h2::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background-color: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (min-width: 768px) {
+            .feature-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .feature-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .feature-item {
+            background-color: var(--grey-light);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-item svg {
+            width: 60px;
+            height: 60px;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .feature-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.8rem;
+            color: var(--dark-text);
+        }
+
+        .feature-item p {
+            color: var(--dark-text);
+            font-size: 1rem;
+        }
+
+        /* Testimonials Section */
+        #testimonials {
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        #testimonials h2 {
+            color: var(--white);
+        }
+
+        #testimonials h2::after {
+            background-color: var(--secondary-color);
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (min-width: 768px) {
+            .testimonial-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .testimonial-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .testimonial-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .testimonial-item:hover {
+            transform: translateY(-5px);
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .testimonial-item p {
+            font-style: italic;
+            margin-bottom: 1rem;
+            color: var(--light-text);
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* Contact Form Section */
+        #contact {
+            background-color: var(--grey-light);
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        #contact h2::after {
+            background-color: var(--accent-color);
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 3rem auto 0 auto;
+            background-color: var(--white);
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: var(--dark-text);
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--grey-medium);
+            border-radius: 4px;
+            font-size: 1rem;
+            color: var(--dark-text);
+            background-color: var(--grey-light);
+        }
+
+        .contact-form input[type="text"]:focus,
+        .contact-form input[type="email"]:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.2);
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .contact-form button {
+            background-color: var(--accent-color);
+            color: var(--white);
+            padding: 0.9rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #689F38; /* Darker green */
+            transform: translateY(-3px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            text-align: center;
+            padding: 2rem 0;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        footer a {
+            color: var(--primary-color);
+        }
+
+        footer a:hover {
+            color: var(--white);
+            text-decoration: underline;
+        }
+
+        /* Accessibility improvements for focus states */
+        a:focus, button:focus, input:focus, textarea:focus {
+            outline: 2px solid var(--secondary-color);
+            outline-offset: 3px;
+        }
+
+        /* Responsive Navigation */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .menu-toggle span {
+            height: 3px;
+            width: 25px;
+            background: var(--white);
+            margin-bottom: 4px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px; /* Adjust based on header height */
+                left: 0;
+                width: 100%;
+                background-color: var(--dark-bg);
+                padding: 1rem 0;
+                box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+                z-index: 999;
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+                text-align: center;
+            }
+
+            nav ul li a {
+                padding: 0.8rem 0;
+                display: block;
+            }
+
+            .menu-toggle {
+                display: flex;
+            }
+
+            .menu-toggle.active span:nth-child(1) {
+                transform: rotate(45deg) translate(5px, 5px);
+            }
+            .menu-toggle.active span:nth-child(2) {
+                opacity: 0;
+            }
+            .menu-toggle.active span:nth-child(3) {
+                transform: rotate(-45deg) translate(5px, -5px);
+            }
+
+            #hero h1 {
+                font-size: 2.2rem;
+            }
+            #hero p {
+                font-size: 1rem;
+            }
+
+            #features h2, #testimonials h2, #contact h2 {
+                font-size: 1.8rem;
+            }
+
+            .testimonial-item, .feature-item {
+                margin: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#hero" class="logo">PeakFit</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul id="main-nav">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Unlock Your Fitness Potential with PeakFit</h1>
+                <p>Track your workouts, plan your nutrition, and achieve your health goals with our all-in-one revolutionary fitness app.</p>
+                <a href="#contact" class="cta-button">Start Your Free Trial Today!</a>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                        </svg>
+                        <h3>Personalized Workouts</h3>
+                        <p>Access custom workout plans tailored to your goals and fitness level.</p>
+                    </div>
+                    <div class="feature-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L6 22h12L12 2zm-5.74 15L12 5.06 17.74 17H6.26z"/>
+                        </svg>
+                        <h3>Nutrition Tracking</h3>
+                        <p>Log your meals, track macros, and get insights into your dietary habits.</p>
+                    </div>
+                    <div class="feature-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13 1.07V9h7c0-4.08-3.05-7.44-7-7.93zM4 15c0 4.42 3.58 8 8 8s8-3.58 8-8v-4H4v4zm7-13.93C7.05 2.56 4 5.92 4 10h7V1.07z"/>
+                        </svg>
+                        <h3>Progress Monitoring</h3>
+                        <p>Visualize your progress with detailed charts and statistics. Stay motivated!</p>
+                    </div>
+                    <div class="feature-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                        <h3>Community Support</h3>
+                        <p>Connect with other fitness enthusiasts and share your journey.</p>
+                    </div>
+                    <div class="feature-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                           <path d="M17 19H7c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v10c0 1.1-.9 2-2 2zm0-15H7c-2.21 0-4 1.79-4 4v10c0 2.21 1.79 4 4 4h10c2.21 0 4-1.79 4-4V8c0-2.21-1.79-4-4-4zm-1 9h-3v3h-2v-3H8v-2h3V8h2v3h3v2z"/>
+                        </svg>
+                        <h3>Custom Meal Plans</h3>
+                        <p>Receive dietitian-approved meal plans based on your dietary preferences.</p>
+                    </div>
+                    <div class="feature-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                        </svg>
+                        <h3>Advanced Analytics</h3>
+                        <p>Gain deeper insights into your performance and identify areas for improvement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <h2>What Our Users Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-item">
+                        <p>"PeakFit transformed my fitness journey! The personalized workouts are incredible and easy to follow. I've never felt better!"</p>
+                        <div class="testimonial-author">- Sarah L., Marathon Runner</div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"The nutrition tracking is a game-changer. It helped me understand my eating habits and make healthier choices. Highly recommended!"</p>
+                        <div class="testimonial-author">- David M., Busy Professional</div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"I love the progress monitoring tools. Seeing my improvements in real-time keeps me motivated to push harder every day. Best fitness app out there!"</p>
+                        <div class="testimonial-author">- Emily R., Fitness Enthusiast</div>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"The community feature is fantastic. It's great to connect with like-minded people and share tips. PeakFit is more than just an app, it's a support system."</p>
+                        <div class="testimonial-author">- Mark T., Weightlifter</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-form">
+                    <p style="text-align: center; margin-bottom: 1.5rem; color: var(--dark-text);">Have questions or want to leave feedback? We'd love to hear from you!</p>
+                    <form action="#" method="POST">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="e.g., App Support, General Inquiry">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 PeakFit. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            var nav = document.getElementById('main-nav');
+            this.classList.toggle('active');</main>
+</body>
+</html>
